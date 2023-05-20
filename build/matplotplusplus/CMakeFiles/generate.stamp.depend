@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+C:/CMake/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake
+C:/CMake/share/cmake-3.26/Modules/FetchContent.cmake
+C:/CMake/share/cmake-3.26/Modules/GNUInstallDirs.cmake
+C:/CMake/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/matplotplusplus/CMakeLists.txt
+C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/matplotplusplus/cmake/functions.cmake
+C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/matplotplusplus/cmake/functions/link_external_libraries.cmake
+C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/matplotplusplus/cmake/functions/project_flags.cmake
+C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/matplotplusplus/cmake/functions/sanitizers.cmake
+C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/matplotplusplus/cmake/functions/target_options.cmake

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\7300bfe088012fcfe67c50864ca2d8a5\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2C60EE44-A710-302E-927C-654E58556959}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

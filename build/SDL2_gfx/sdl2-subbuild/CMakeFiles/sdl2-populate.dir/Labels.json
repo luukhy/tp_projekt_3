@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/sdl2-populate"
+		},
+		{
+			"file" : "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/7300bfe088012fcfe67c50864ca2d8a5/sdl2-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/2a06c3bc40e776205a1398cf56dd5ae3/sdl2-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/12863235cd2542ba6945967af3be1ac1/sdl2-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/12863235cd2542ba6945967af3be1ac1/sdl2-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/12863235cd2542ba6945967af3be1ac1/sdl2-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/12863235cd2542ba6945967af3be1ac1/sdl2-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/12863235cd2542ba6945967af3be1ac1/sdl2-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/12863235cd2542ba6945967af3be1ac1/sdl2-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/12863235cd2542ba6945967af3be1ac1/sdl2-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/12863235cd2542ba6945967af3be1ac1/sdl2-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sdl2-populate"
+		],
+		"name" : "sdl2-populate"
+	}
+}

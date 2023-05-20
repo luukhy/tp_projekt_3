@@ -26,3 +26,32 @@ int main() {
 
     return 0;
 }
+
+// #include <SDL.h>
+// #include <SDL2_gfx\SDL2_gfxPrimitives.h>
+// #include <stdio.h>
+
+// int main(int argc, char* argv[]) {
+//     SDL_Init(SDL_INIT_VIDEO);
+//     SDL_Window* window = SDL_CreateWindow("SDL2 gfx example", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 640, 480, 0);
+//     SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, 0);
+
+//     int x = 10;
+//     int y = 10;
+//     int value = 42;
+
+//     char buffer[256];
+//     sprintf(buffer, "Value: %d", value);
+
+//     stringRGBA(renderer, x, y, buffer, 255, 255, 255, 255);
+
+//     SDL_RenderPresent(renderer);
+
+//     SDL_Delay(5000);
+
+//     SDL_DestroyRenderer(renderer);
+//     SDL_DestroyWindow(window);
+//     SDL_Quit();
+
+//     return 0;
+// }

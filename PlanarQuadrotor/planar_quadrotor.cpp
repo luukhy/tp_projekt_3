@@ -113,10 +113,74 @@ Eigen::VectorXf PlanarQuadrotor::Update(Eigen::Vector2f &input, float dt) {
     SetInput(input);
     DoCalcTimeDerivatives();
     DoUpdateState(dt);
-
+    Eigen::VectorXf coords = GetState();
+    if (SDL_GetTicks() - time > 500)
+    {
+        // ReturnTime();
+        if (show_coords == true)
+        {
+            std::cout << "now at: [" << coords[0] << ", " << coords[1] << ", theta:" << coords[5] << "] || seconds:" << seconds << "\n";
+            seconds++;
+        }
+        show_coords = !show_coords;
+        time = SDL_GetTicks();
+        UpdateHistory();
+    }
     return z;
 }
 
 Eigen::VectorXf PlanarQuadrotor::Update(float dt) {
     return Update(input, dt);
+}
+
+void PlanarQuadrotor::ShowHistory() 
+{
+
+    Eigen::VectorXf up_num_vector = Eigen::VectorXf::LinSpaced(seconds, 0, 10);
+    // std::cout << up_num_vector.size() << '\n';
+    // std::cout << x_history.size() << '\n';
+    // auto x = matplot::plot(up_num_vector, x_history);
+    // matplot::show();
+    // auto y = matplot::plot(up_num_vector, y_history);
+    // matplot::show();
+    // auto theta = matplot::plot(up_num_vector, theta_history);
+    auto x_y = matplot::plot(x_history, y_history);
+    matplot::show();
+    return;
+}
+
+void PlanarQuadrotor::UpdateHistory()
+{
+    x_history.push_back(GetState()[0]);
+    y_history.push_back(GetState()[1]);
+    theta_history.push_back(GetState()[2]);
+    return;
+}
+void PlanarQuadrotor::ReturnTime()
+{
+    std::list<char> timing;
+    int time_2 = this->seconds;
+    int temp;
+    char *ptr;
+    while(time_2 > 0)
+    {
+        temp = time_2 % 10;
+        temp = time_2 % temp;
+        std::cout << temp << '\n';
+        timing.push_front(char(temp + 48));
+        time_2 /= 10;
+    }
+    // int size = timing.size();
+    // char *seconds = new char[size+3];
+    // seconds[0] = 't';
+    // seconds[1] = '=';
+    // for (int i = 2; i < size+2;i++)
+    // {
+    //     seconds[i] = timing.front();
+    //     timing.pop_front();
+    // }
+    // seconds[size - 1] = 's';
+    // ptr = seconds;
+    // delete[] seconds;
+    // return ptr;
 }

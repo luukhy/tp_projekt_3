@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\12863235cd2542ba6945967af3be1ac1\sdl2-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\12863235cd2542ba6945967af3be1ac1\sdl2-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\12863235cd2542ba6945967af3be1ac1\sdl2-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\12863235cd2542ba6945967af3be1ac1\sdl2-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\12863235cd2542ba6945967af3be1ac1\sdl2-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\12863235cd2542ba6945967af3be1ac1\sdl2-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\12863235cd2542ba6945967af3be1ac1\sdl2-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\12863235cd2542ba6945967af3be1ac1\sdl2-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\2a06c3bc40e776205a1398cf56dd5ae3\sdl2-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\7300bfe088012fcfe67c50864ca2d8a5\sdl2-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\sdl2-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2C60EE44-A710-302E-927C-654E58556959}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

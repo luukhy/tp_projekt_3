@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+C:/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake
+C:/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake
+C:/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake
+C:/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake
+C:/CMake/share/cmake-3.26/Modules/FindBLAS.cmake
+C:/CMake/share/cmake-3.26/Modules/FindJPEG.cmake
+C:/CMake/share/cmake-3.26/Modules/FindLAPACK.cmake
+C:/CMake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
+C:/CMake/share/cmake-3.26/Modules/FindPackageMessage.cmake
+C:/CMake/share/cmake-3.26/Modules/FindPkgConfig.cmake
+C:/CMake/share/cmake-3.26/Modules/FindTIFF.cmake
+C:/CMake/share/cmake-3.26/Modules/FindThreads.cmake
+C:/CMake/share/cmake-3.26/Modules/FindZLIB.cmake
+C:/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake
+C:/CMake/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake
+C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/matplotplusplus/cmake/FindFFTW.cmake
+C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/matplotplusplus/cmake/FindOpenCV.cmake
+C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/matplotplusplus/source/3rd_party/CMakeLists.txt

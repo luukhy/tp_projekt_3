@@ -26,12 +26,32 @@ endif()
 add_executable(plot main.cpp)
 target_link_libraries(plot matplot)
 target_link_libraries(plot Eigen)
+target_link_libraries(plot SDL2_gfx)
+target_link_libraries(plot SDL)
+
+if(TARGET SDL2::SDL2main)
+# It has an implicit dependency on SDL2 functions, so it MUST be added before SDL2::SDL2 (or SDL2::SDL2-static)
+target_link_libraries(plot SDL2::SDL2main)
+endif()
+target_link_libraries(plot SDL2::SDL2 SDL SDL2_gfx Eigen matplot)
+target_include_directories(plot PRIVATE ${PROJECT_SOURCE_DIR})
+
+#####################PlanarQuadrotor###############################
 
 set(PLANAR_QUADROTOR_SOURCES PlanarQuadrotor/simulate.cpp PlanarQuadrotor/planar_quadrotor.cpp PlanarQuadrotor/planar_quadrotor_visualizer.cpp PlanarQuadrotor/lqr.cpp)
 add_executable(planar_quadrotor ${PLANAR_QUADROTOR_SOURCES})
+link_directories(C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/tp_projekt_3/SDL2_gfx)
+target_link_libraries(planar_quadrotor SDL2_gfx)
+
 if(TARGET SDL2::SDL2main)
-    # It has an implicit dependency on SDL2 functions, so it MUST be added before SDL2::SDL2 (or SDL2::SDL2-static)
-    target_link_libraries(planar_quadrotor SDL2::SDL2main)
+# It has an implicit dependency on SDL2 functions, so it MUST be added before SDL2::SDL2 (or SDL2::SDL2-static)
+target_link_libraries(planar_quadrotor SDL2::SDL2main)
 endif()
 target_link_libraries(planar_quadrotor SDL2::SDL2 SDL2_gfx Eigen matplot)
 target_include_directories(planar_quadrotor PRIVATE ${PROJECT_SOURCE_DIR})
+
+#############################test##################################
+
+add_executable(test test.cpp)
+target_link_libraries(test matplot)
+target_link_libraries(test Eigen)

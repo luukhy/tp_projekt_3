@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AED5E76D-056C-3B3C-B860-E01F177018D9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>win32</Platform>
+    <ProjectName>planar_quadrotor</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">planar_quadrotor.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">planar_quadrotor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">planar_quadrotor.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">planar_quadrotor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">planar_quadrotor.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">planar_quadrotor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">planar_quadrotor.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">planar_quadrotor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-debug;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/_deps/eigen-src"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-debug;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-debug;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>SDL2_gfx\Debug\SDL2_gfx.lib;SDL\Debug\SDL2maind.lib;SDL\Debug\SDL2d.lib;SDL2_gfx\Debug\SDL2_gfx.lib;matplotplusplus\source\matplot\Debug\matplot.lib;shell32.lib;gdi32.lib;matplotplusplus\source\3rd_party\Debug\nodesoup.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/Debug/planar_quadrotor.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/Debug/planar_quadrotor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-release;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/_deps/eigen-src"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-release;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-release;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>SDL2_gfx\Release\SDL2_gfx.lib;SDL\Release\SDL2main.lib;SDL\Release\SDL2.lib;SDL2_gfx\Release\SDL2_gfx.lib;matplotplusplus\source\matplot\Release\matplot.lib;shell32.lib;gdi32.lib;matplotplusplus\source\3rd_party\Release\nodesoup.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/Release/planar_quadrotor.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/Release/planar_quadrotor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-minsizerel;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/_deps/eigen-src"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-minsizerel;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-minsizerel;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>SDL2_gfx\MinSizeRel\SDL2_gfx.lib;SDL\MinSizeRel\SDL2main.lib;SDL\MinSizeRel\SDL2.lib;SDL2_gfx\MinSizeRel\SDL2_gfx.lib;matplotplusplus\source\matplot\MinSizeRel\matplot.lib;shell32.lib;gdi32.lib;matplotplusplus\source\3rd_party\MinSizeRel\nodesoup.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/MinSizeRel/planar_quadrotor.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/MinSizeRel/planar_quadrotor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-relwithdebinfo;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/_deps/eigen-src"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-relwithdebinfo;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-relwithdebinfo;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>SDL2_gfx\RelWithDebInfo\SDL2_gfx.lib;SDL\RelWithDebInfo\SDL2main.lib;SDL\RelWithDebInfo\SDL2.lib;SDL2_gfx\RelWithDebInfo\SDL2_gfx.lib;matplotplusplus\source\matplot\RelWithDebInfo\matplot.lib;shell32.lib;gdi32.lib;matplotplusplus\source\3rd_party\RelWithDebInfo\nodesoup.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/RelWithDebInfo/planar_quadrotor.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/RelWithDebInfo/planar_quadrotor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3 -BC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build --check-stamp-file C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\CMake\share\cmake-3.26\Modules\FetchContent.cmake;C:\CMake\share\cmake-3.26\Modules\FetchContent\CMakeLists.cmake.in;C:\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\cmake\CPM_0.38.1.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3 -BC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build --check-stamp-file C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\CMake\share\cmake-3.26\Modules\FetchContent.cmake;C:\CMake\share\cmake-3.26\Modules\FetchContent\CMakeLists.cmake.in;C:\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\cmake\CPM_0.38.1.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3 -BC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build --check-stamp-file C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\CMake\share\cmake-3.26\Modules\FetchContent.cmake;C:\CMake\share\cmake-3.26\Modules\FetchContent\CMakeLists.cmake.in;C:\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\cmake\CPM_0.38.1.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3 -BC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build --check-stamp-file C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\CMake\share\cmake-3.26\Modules\FetchContent.cmake;C:\CMake\share\cmake-3.26\Modules\FetchContent\CMakeLists.cmake.in;C:\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\cmake\CPM_0.38.1.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\PlanarQuadrotor\simulate.cpp" />
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\PlanarQuadrotor\planar_quadrotor.cpp" />
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\PlanarQuadrotor\planar_quadrotor_visualizer.cpp" />
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\PlanarQuadrotor\lqr.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\ZERO_CHECK.vcxproj">
+      <Project>{3CC1D2CD-004D-3252-8262-432528E45228}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\SDL2.vcxproj">
+      <Project>{477EEE05-A0E5-3482-8EAA-71D19F06991F}</Project>
+      <Name>SDL2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\SDL2_gfx.vcxproj">
+      <Project>{F4A029C7-EAC2-3020-AD5B-46D9EBEB1EA6}</Project>
+      <Name>SDL2_gfx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\SDL2main.vcxproj">
+      <Project>{BCD140CC-BA22-3861-BF69-42EF88654DFA}</Project>
+      <Name>SDL2main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\matplotplusplus\source\matplot\matplot.vcxproj">
+      <Project>{41B894C6-03F9-3AEA-A946-C4057460631E}</Project>
+      <Name>matplot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\matplotplusplus\source\3rd_party\nodesoup.vcxproj">
+      <Project>{304389D9-FF2E-3184-A482-2B4BF481ED03}</Project>
+      <Name>nodesoup</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

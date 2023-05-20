@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\_deps\eigen-subbuild\CMakeFiles\4be2a9dd9997fe3c884129a5ecd3c93f\eigen-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\_deps\eigen-subbuild\CMakeFiles\4be2a9dd9997fe3c884129a5ecd3c93f\eigen-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\_deps\eigen-subbuild\CMakeFiles\4be2a9dd9997fe3c884129a5ecd3c93f\eigen-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\_deps\eigen-subbuild\CMakeFiles\4be2a9dd9997fe3c884129a5ecd3c93f\eigen-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\_deps\eigen-subbuild\CMakeFiles\4be2a9dd9997fe3c884129a5ecd3c93f\eigen-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\_deps\eigen-subbuild\CMakeFiles\4be2a9dd9997fe3c884129a5ecd3c93f\eigen-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\_deps\eigen-subbuild\CMakeFiles\4be2a9dd9997fe3c884129a5ecd3c93f\eigen-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\_deps\eigen-subbuild\CMakeFiles\4be2a9dd9997fe3c884129a5ecd3c93f\eigen-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\_deps\eigen-subbuild\CMakeFiles\f22ccd92c975500495c3260d95bd9443\eigen-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\_deps\eigen-subbuild\CMakeFiles\cdfb78a7e4593e3bee7cfa971da6fad5\eigen-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\_deps\eigen-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\_deps\eigen-subbuild\CMakeFiles\eigen-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{02C33614-5579-3080-A689-9813D0906AB7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

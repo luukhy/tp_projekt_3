@@ -85,7 +85,7 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer,
     filledEllipseColor(gRenderer.get(), S_prime_small.x, S_prime_small.y, serx, sery, 0xFFFF0000);
 
     gfxPrimitivesSetFont(NULL, NULL, NULL);
-    stringColor(gRenderer.get(), 0, 0, "chuj", 0xFF000000);
+    stringColor(gRenderer.get(), 0, 0, "sexy", 0xFF000000);
 }
 // q_x - (std::sin(q_theta)*r)/2
 // q_y + (std::cos(q_theta)*r)/2

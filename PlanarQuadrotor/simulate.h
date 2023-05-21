@@ -10,6 +10,7 @@
 #include "planar_quadrotor.h"
 #include "planar_quadrotor_visualizer.h"
 #include "lqr.h"
+#include <thread>
 
 struct Next_pos
 {

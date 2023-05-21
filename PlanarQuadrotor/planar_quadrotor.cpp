@@ -137,6 +137,7 @@ void PlanarQuadrotor::ShowHistory()
 {
 
     Eigen::VectorXf up_num_vector = Eigen::VectorXf::LinSpaced(seconds, 0, 10);
+    // if any variable history needed separately - uncomment it 
     // std::cout << up_num_vector.size() << '\n';
     // std::cout << x_history.size() << '\n';
     // auto x = matplot::plot(up_num_vector, x_history);
@@ -170,17 +171,4 @@ void PlanarQuadrotor::ReturnTime()
         timing.push_front(char(temp + 48));
         time_2 /= 10;
     }
-    // int size = timing.size();
-    // char *seconds = new char[size+3];
-    // seconds[0] = 't';
-    // seconds[1] = '=';
-    // for (int i = 2; i < size+2;i++)
-    // {
-    //     seconds[i] = timing.front();
-    //     timing.pop_front();
-    // }
-    // seconds[size - 1] = 's';
-    // ptr = seconds;
-    // delete[] seconds;
-    // return ptr;
 }

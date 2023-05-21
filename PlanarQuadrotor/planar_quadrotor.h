@@ -24,6 +24,7 @@ private:
     std::vector<float> theta_history;
 
 public:
+    int animation_time = SDL_GetTicks();
     PlanarQuadrotor();
     PlanarQuadrotor(Eigen::VectorXf z);
     void SetGoal(Eigen::VectorXf z_goal);

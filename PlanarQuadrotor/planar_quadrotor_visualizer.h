@@ -11,6 +11,7 @@
 class PlanarQuadrotorVisualizer {
 private:
     PlanarQuadrotor *quadrotor_ptr;
+    bool change_animation = false;
     
 public:
     PlanarQuadrotorVisualizer(PlanarQuadrotor *quadrotor_ptr);

@@ -20,7 +20,7 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer,
     /* x, y, theta coordinates */
     q_x = state[0];
     q_y = state[1];
-    q_theta = state[2];
+    q_theta = state[2] * 2;
     alpha = q_theta;
 
     int fan_dist = 10;   // distance of the fan leg from the tip of the quadrotor
@@ -85,7 +85,6 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer,
     filledEllipseColor(gRenderer.get(), S_prime_small.x, S_prime_small.y, serx, sery, 0xFFFF0000);
 
     gfxPrimitivesSetFont(NULL, NULL, NULL);
-    stringColor(gRenderer.get(), 0, 0, "sexy", 0xFF000000);
 }
 // q_x - (std::sin(q_theta)*r)/2
 // q_y + (std::cos(q_theta)*r)/2

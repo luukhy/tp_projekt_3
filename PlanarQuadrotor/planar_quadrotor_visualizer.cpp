@@ -20,7 +20,7 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer,
     /* x, y, theta coordinates */
     q_x = state[0];
     q_y = state[1];
-    q_theta = state[2] * 2;
+    q_theta = state[2];
     alpha = q_theta;
 
     int fan_dist = 10;   // distance of the fan leg from the tip of the quadrotor

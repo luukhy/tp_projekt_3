@@ -106,10 +106,8 @@ int main(int argc, char* args[])
                 else if(e.type == SDL_KEYDOWN && e.key.keysym.sym == 112 && history_shown == false)
                 {
                     history_shown = true;
-                    // quadrotor.ShowHistory();
+                    quadrotor.ShowHistory();
                     history_shown = false;
-                    std::thread thread(&PlanarQuadrotor::ShowHistory, quadrotor);
-                    thread.join();
                 }
             }
 

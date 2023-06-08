@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\CMakeFiles\6a677d9a59c6be392022bb0ba2d879c0\uninstall.rule">
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\CMakeFiles\14a238309a735024f8b400ca6823aeb8\uninstall.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\CMakeFiles\uninstall" />
+    <None Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\CMakeFiles\uninstall" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{3B28EE7C-7DD3-30B9-B739-2B476F61D207}</UniqueIdentifier>
+      <UniqueIdentifier>{3E51E002-7D28-384C-8A93-F49ED793D682}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

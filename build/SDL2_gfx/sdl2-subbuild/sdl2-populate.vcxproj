@@ -4,21 +4,21 @@
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|win32">
+    <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
-      <Platform>win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D41591DD-8312-3CCB-A906-AFEC7D660B27}</ProjectGuid>
+    <ProjectGuid>{9085EA40-7FDC-32E7-8F79-C887CC06A426}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
-    <Platform>win32</Platform>
+    <Platform>x64</Platform>
     <ProjectName>sdl2-populate</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
@@ -32,9 +32,9 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
@@ -45,12 +45,12 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\12863235cd2542ba6945967af3be1ac1\sdl2-populate-mkdir.rule">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Creating directories for 'sdl2-populate'</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-C:\CMake\bin\cmake.exe -Dcfgdir=/Debug -P C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/tmp/sdl2-populate-mkdirs.cmake
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\93f65669fe90c96e220ccc934d54d588\sdl2-populate-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'sdl2-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -Dcfgdir=/Debug -P C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/tmp/sdl2-populate-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\CMake\bin\cmake.exe -E touch C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-mkdir
+C:\CMake\bin\cmake.exe -E touch C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -58,26 +58,26 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\12863235cd2542ba6945967af3be1ac1\sdl2-populate-download.rule">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Performing download step (download, verify and extract) for 'sdl2-populate'</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-cd C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\93f65669fe90c96e220ccc934d54d588\sdl2-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (download, verify and extract) for 'sdl2-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\CMake\bin\cmake.exe -P C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/download-sdl2-populate.cmake
+C:\CMake\bin\cmake.exe -P C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/download-sdl2-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\CMake\bin\cmake.exe -P C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/verify-sdl2-populate.cmake
+C:\CMake\bin\cmake.exe -P C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/verify-sdl2-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\CMake\bin\cmake.exe -P C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/extract-sdl2-populate.cmake
+C:\CMake\bin\cmake.exe -P C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/extract-sdl2-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\CMake\bin\cmake.exe -E touch C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-download
+C:\CMake\bin\cmake.exe -E touch C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -85,18 +85,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\download-sdl2-populate.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\sdl2-populate-urlinfo.txt;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\download-sdl2-populate.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\sdl2-populate-urlinfo.txt;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\12863235cd2542ba6945967af3be1ac1\sdl2-populate-update.rule">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No update step for 'sdl2-populate'</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\93f65669fe90c96e220ccc934d54d588\sdl2-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No update step for 'sdl2-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 C:\CMake\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\CMake\bin\cmake.exe -E touch C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-update
+C:\CMake\bin\cmake.exe -E touch C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -104,18 +104,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\12863235cd2542ba6945967af3be1ac1\sdl2-populate-patch.rule">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No patch step for 'sdl2-populate'</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\93f65669fe90c96e220ccc934d54d588\sdl2-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'sdl2-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 C:\CMake\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\CMake\bin\cmake.exe -E touch C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-patch
+C:\CMake\bin\cmake.exe -E touch C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -123,45 +123,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\12863235cd2542ba6945967af3be1ac1\sdl2-populate-configure.rule">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No configure step for 'sdl2-populate'</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-cd C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-build
-if %errorlevel% neq 0 goto :cmEnd
-C:
-if %errorlevel% neq 0 goto :cmEnd
-C:\CMake\bin\cmake.exe -E echo_append
-if %errorlevel% neq 0 goto :cmEnd
-C:\CMake\bin\cmake.exe -E touch C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-configure
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\tmp\sdl2-populate-cfgcmd.txt;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\12863235cd2542ba6945967af3be1ac1\sdl2-populate-build.rule">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No build step for 'sdl2-populate'</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-cd C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-build
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\93f65669fe90c96e220ccc934d54d588\sdl2-populate-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'sdl2-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 C:\CMake\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\CMake\bin\cmake.exe -E touch C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-build
+C:\CMake\bin\cmake.exe -E touch C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -169,22 +146,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\tmp\sdl2-populate-cfgcmd.txt;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\12863235cd2542ba6945967af3be1ac1\sdl2-populate-install.rule">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No install step for 'sdl2-populate'</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-cd C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-build
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\93f65669fe90c96e220ccc934d54d588\sdl2-populate-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'sdl2-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 C:\CMake\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\CMake\bin\cmake.exe -E touch C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-install
+C:\CMake\bin\cmake.exe -E touch C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -192,22 +169,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\12863235cd2542ba6945967af3be1ac1\sdl2-populate-test.rule">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No test step for 'sdl2-populate'</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-cd C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-build
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\93f65669fe90c96e220ccc934d54d588\sdl2-populate-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'sdl2-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 C:\CMake\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\CMake\bin\cmake.exe -E touch C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-test
+C:\CMake\bin\cmake.exe -E touch C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -215,20 +192,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-test</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\2a06c3bc40e776205a1398cf56dd5ae3\sdl2-populate-complete.rule">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Completed 'sdl2-populate'</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-C:\CMake\bin\cmake.exe -E make_directory C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/Debug
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\93f65669fe90c96e220ccc934d54d588\sdl2-populate-test.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'sdl2-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-build
 if %errorlevel% neq 0 goto :cmEnd
-C:\CMake\bin\cmake.exe -E touch C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/Debug/sdl2-populate-complete
+C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\CMake\bin\cmake.exe -E touch C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-done
+C:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\CMake\bin\cmake.exe -E touch C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -236,33 +215,54 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\Debug\sdl2-populate-complete</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\7300bfe088012fcfe67c50864ca2d8a5\sdl2-populate.rule">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'"></Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\5416b65e8e3809ed56a164109638ff2e\sdl2-populate-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'sdl2-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E make_directory C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+C:\CMake\bin\cmake.exe -E touch C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/Debug/sdl2-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+C:\CMake\bin\cmake.exe -E touch C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-done
+if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 :cmErrorLevel
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\Debug\sdl2-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\sdl2-populate</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
-      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</VerifyInputsAndOutputsExist>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\Debug\sdl2-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\69bf66b303a3ed13c6f2927d69326bbc\sdl2-populate.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\Debug\sdl2-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\sdl2-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-C:\CMake\bin\cmake.exe -SC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild -BC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild --check-stamp-file C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/generate.stamp
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild -BC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild --check-stamp-file C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -270,18 +270,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\CMake\share\cmake-3.26\Modules\ExternalProject\download.cmake.in;C:\CMake\share\cmake-3.26\Modules\ExternalProject\extractfile.cmake.in;C:\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\tmp\sdl2-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CMake\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeSystem.cmake.in;C:\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\CMake\share\cmake-3.26\Modules\ExternalProject\download.cmake.in;C:\CMake\share\cmake-3.26\Modules\ExternalProject\extractfile.cmake.in;C:\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\tmp\sdl2-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\sdl2-populate">
+    <None Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\sdl2-populate">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{29DC2AAF-CE4E-37E2-9FBC-2D69C54579EA}</Project>
+    <ProjectReference Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{11E64698-004E-3424-8DA1-B339B8B7DD41}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

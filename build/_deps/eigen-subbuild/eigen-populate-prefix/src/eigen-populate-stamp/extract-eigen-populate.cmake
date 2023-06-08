@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 
 # Make file names absolute:
 #
-get_filename_component(filename "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-3.4.0.tar.gz" ABSOLUTE)
-get_filename_component(directory "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/_deps/eigen-src" ABSOLUTE)
+get_filename_component(filename "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-3.4.0.tar.gz" ABSOLUTE)
+get_filename_component(directory "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/_deps/eigen-src" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

@@ -4,48 +4,48 @@
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|win32">
+    <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
-      <Platform>win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|win32">
+    <ProjectConfiguration Include="Release|x64">
       <Configuration>Release</Configuration>
-      <Platform>win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="MinSizeRel|win32">
+    <ProjectConfiguration Include="MinSizeRel|x64">
       <Configuration>MinSizeRel</Configuration>
-      <Platform>win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="RelWithDebInfo|win32">
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
       <Configuration>RelWithDebInfo</Configuration>
-      <Platform>win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A926150B-1811-3D4A-867B-0618E74288A6}</ProjectGuid>
+    <ProjectGuid>{622F803A-834A-3515-B33D-B5FE378C6D57}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
-    <Platform>win32</Platform>
+    <Platform>x64</Platform>
     <ProjectName>SDL2_test</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
@@ -59,31 +59,30 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">SDL2_test.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">SDL2_test</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\Release\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">SDL2_test.dir\Release\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">SDL2_test</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\MinSizeRel\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">SDL2_test.dir\MinSizeRel\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">SDL2_test</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\RelWithDebInfo\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">SDL2_test.dir\RelWithDebInfo\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">SDL2_test</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SDL2_test.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SDL2_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SDL2_test.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SDL2_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SDL2_test.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SDL2_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SDL2_test.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SDL2_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include-config-debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /Gs1048576</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
       <ExceptionHandling>
       </ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
@@ -96,10 +95,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SDL_BUILD_MAJOR_VERSION=2;SDL_BUILD_MINOR_VERSION=27;SDL_BUILD_MICRO_VERSION=0;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include-config-debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include-config-debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -107,16 +106,15 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include-config-release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /Gs1048576</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
-      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
       <ExceptionHandling>
       </ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -131,10 +129,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SDL_BUILD_MAJOR_VERSION=2;SDL_BUILD_MINOR_VERSION=27;SDL_BUILD_MICRO_VERSION=0;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include-config-release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include-config-release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -142,16 +140,15 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-minsizerel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include-config-minsizerel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /Gs1048576</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
-      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
       <ExceptionHandling>
       </ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -166,10 +163,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SDL_BUILD_MAJOR_VERSION=2;SDL_BUILD_MINOR_VERSION=27;SDL_BUILD_MICRO_VERSION=0;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-minsizerel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include-config-minsizerel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-minsizerel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include-config-minsizerel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -177,17 +174,16 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-relwithdebinfo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include-config-relwithdebinfo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /Gs1048576</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
       <ExceptionHandling>
       </ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -200,10 +196,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SDL_BUILD_MAJOR_VERSION=2;SDL_BUILD_MINOR_VERSION=27;SDL_BUILD_MICRO_VERSION=0;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-relwithdebinfo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include-config-relwithdebinfo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\include-config-relwithdebinfo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\include-config-relwithdebinfo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -211,15 +207,15 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/SDL/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-C:\CMake\bin\cmake.exe -SC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3 -BC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build --check-stamp-file C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL/CMakeFiles/generate.stamp
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/SDL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3 -BC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build --check-stamp-file C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -227,12 +223,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\CMake\share\cmake-3.26\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;C:\CMake\share\cmake-3.26\Modules\CMakePushCheckState.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCSourceRuns.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCXXCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCXXSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLanguage.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.26\Modules\CheckStructHasMember.cmake;C:\CMake\share\cmake-3.26\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckFlagCommonConfig.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceRuns.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\SDL2.spec.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake\CheckCPUArchitecture.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake\macros.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake\sdlchecks.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake\sdlfind.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake\sdlplatform.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake_uninstall.cmake.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\include\SDL_config.h.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\include\SDL_revision.h.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\sdl2-config.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\sdl2.pc.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\SDL_config.h.intermediate;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/SDL/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
-C:\CMake\bin\cmake.exe -SC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3 -BC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build --check-stamp-file C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL/CMakeFiles/generate.stamp
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CMake\share\cmake-3.26\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;C:\CMake\share\cmake-3.26\Modules\CMakePushCheckState.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCSourceRuns.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCXXCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCXXSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLanguage.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.26\Modules\CheckStructHasMember.cmake;C:\CMake\share\cmake-3.26\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckFlagCommonConfig.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceRuns.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\SDL2.spec.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake\CheckCPUArchitecture.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake\macros.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake\sdlchecks.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake\sdlfind.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake\sdlplatform.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake_uninstall.cmake.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\include\SDL_config.h.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\include\SDL_revision.h.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\sdl2-config.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\sdl2.pc.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\SDL_config.h.intermediate;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/SDL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3 -BC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build --check-stamp-file C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -240,12 +236,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\CMake\share\cmake-3.26\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;C:\CMake\share\cmake-3.26\Modules\CMakePushCheckState.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCSourceRuns.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCXXCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCXXSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLanguage.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.26\Modules\CheckStructHasMember.cmake;C:\CMake\share\cmake-3.26\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckFlagCommonConfig.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceRuns.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\SDL2.spec.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake\CheckCPUArchitecture.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake\macros.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake\sdlchecks.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake\sdlfind.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake\sdlplatform.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake_uninstall.cmake.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\include\SDL_config.h.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\include\SDL_revision.h.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\sdl2-config.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\sdl2.pc.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\SDL_config.h.intermediate;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/SDL/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
-C:\CMake\bin\cmake.exe -SC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3 -BC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build --check-stamp-file C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL/CMakeFiles/generate.stamp
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\CMake\share\cmake-3.26\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;C:\CMake\share\cmake-3.26\Modules\CMakePushCheckState.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCSourceRuns.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCXXCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCXXSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLanguage.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.26\Modules\CheckStructHasMember.cmake;C:\CMake\share\cmake-3.26\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckFlagCommonConfig.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceRuns.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\SDL2.spec.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake\CheckCPUArchitecture.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake\macros.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake\sdlchecks.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake\sdlfind.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake\sdlplatform.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake_uninstall.cmake.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\include\SDL_config.h.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\include\SDL_revision.h.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\sdl2-config.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\sdl2.pc.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\SDL_config.h.intermediate;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/SDL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3 -BC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build --check-stamp-file C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -253,12 +249,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\CMake\share\cmake-3.26\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;C:\CMake\share\cmake-3.26\Modules\CMakePushCheckState.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCSourceRuns.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCXXCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCXXSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLanguage.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.26\Modules\CheckStructHasMember.cmake;C:\CMake\share\cmake-3.26\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckFlagCommonConfig.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceRuns.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\SDL2.spec.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake\CheckCPUArchitecture.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake\macros.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake\sdlchecks.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake\sdlfind.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake\sdlplatform.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake_uninstall.cmake.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\include\SDL_config.h.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\include\SDL_revision.h.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\sdl2-config.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\sdl2.pc.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\SDL_config.h.intermediate;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/SDL/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
-C:\CMake\bin\cmake.exe -SC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3 -BC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build --check-stamp-file C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/new_projekt3/tp_projekt_3/build/SDL/CMakeFiles/generate.stamp
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\CMake\share\cmake-3.26\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;C:\CMake\share\cmake-3.26\Modules\CMakePushCheckState.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCSourceRuns.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCXXCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCXXSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLanguage.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.26\Modules\CheckStructHasMember.cmake;C:\CMake\share\cmake-3.26\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckFlagCommonConfig.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceRuns.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\SDL2.spec.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake\CheckCPUArchitecture.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake\macros.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake\sdlchecks.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake\sdlfind.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake\sdlplatform.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake_uninstall.cmake.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\include\SDL_config.h.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\include\SDL_revision.h.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\sdl2-config.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\sdl2.pc.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\SDL_config.h.intermediate;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/SDL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3 -BC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build --check-stamp-file C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/SDL/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -266,38 +262,38 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\CMake\share\cmake-3.26\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;C:\CMake\share\cmake-3.26\Modules\CMakePushCheckState.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCSourceRuns.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCXXCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCXXSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLanguage.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.26\Modules\CheckStructHasMember.cmake;C:\CMake\share\cmake-3.26\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckFlagCommonConfig.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceRuns.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\SDL2.spec.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake\CheckCPUArchitecture.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake\macros.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake\sdlchecks.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake\sdlfind.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake\sdlplatform.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\cmake_uninstall.cmake.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\include\SDL_config.h.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\include\SDL_revision.h.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\sdl2-config.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\sdl2.pc.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\SDL_config.h.intermediate;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\CMake\share\cmake-3.26\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;C:\CMake\share\cmake-3.26\Modules\CMakePushCheckState.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCSourceRuns.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCXXCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\CheckCXXSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLanguage.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.26\Modules\CheckStructHasMember.cmake;C:\CMake\share\cmake-3.26\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckCompilerFlag.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckFlagCommonConfig.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceRuns.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\SDL2.spec.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake\CheckCPUArchitecture.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake\macros.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake\sdlchecks.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake\sdlfind.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake\sdlplatform.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\cmake_uninstall.cmake.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\include\SDL_config.h.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\include\SDL_revision.h.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\sdl2-config.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\sdl2.pc.in;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\SDL_config.h.intermediate;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\src\test\SDL_test_assert.c" />
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\src\test\SDL_test_common.c" />
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\src\test\SDL_test_compare.c" />
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\src\test\SDL_test_crc32.c" />
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\src\test\SDL_test_font.c" />
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\src\test\SDL_test_fuzzer.c" />
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\src\test\SDL_test_harness.c" />
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\src\test\SDL_test_imageBlit.c" />
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\src\test\SDL_test_imageBlitBlend.c" />
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\src\test\SDL_test_imageFace.c" />
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\src\test\SDL_test_imagePrimitives.c" />
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\src\test\SDL_test_imagePrimitivesBlend.c" />
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\src\test\SDL_test_log.c" />
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\src\test\SDL_test_md5.c" />
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\src\test\SDL_test_memory.c" />
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\SDL\src\test\SDL_test_random.c" />
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\src\test\SDL_test_assert.c" />
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\src\test\SDL_test_common.c" />
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\src\test\SDL_test_compare.c" />
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\src\test\SDL_test_crc32.c" />
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\src\test\SDL_test_font.c" />
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\src\test\SDL_test_fuzzer.c" />
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\src\test\SDL_test_harness.c" />
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\src\test\SDL_test_imageBlit.c" />
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\src\test\SDL_test_imageBlitBlend.c" />
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\src\test\SDL_test_imageFace.c" />
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\src\test\SDL_test_imagePrimitives.c" />
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\src\test\SDL_test_imagePrimitivesBlend.c" />
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\src\test\SDL_test_log.c" />
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\src\test\SDL_test_md5.c" />
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\src\test\SDL_test_memory.c" />
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\SDL\src\test\SDL_test_random.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\ZERO_CHECK.vcxproj">
-      <Project>{3CC1D2CD-004D-3252-8262-432528E45228}</Project>
+    <ProjectReference Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\ZERO_CHECK.vcxproj">
+      <Project>{1AE02F8E-11D9-3F3F-8337-E8761293264F}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\build\SDL\sdl_headers_copy.vcxproj">
-      <Project>{4B583C42-A87E-36AD-8C31-CF519BC84EB4}</Project>
+    <ProjectReference Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\SDL\sdl_headers_copy.vcxproj">
+      <Project>{AB9A0B6D-466C-3E76-A092-F8A75E257E86}</Project>
       <Name>sdl_headers_copy</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

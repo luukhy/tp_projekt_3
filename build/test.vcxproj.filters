@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\test.cpp">
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{FC3C909E-F758-3183-B0E6-521750793B2B}</UniqueIdentifier>
+      <UniqueIdentifier>{CF08297F-FD83-3BC6-B3E3-23EA7EBE540A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

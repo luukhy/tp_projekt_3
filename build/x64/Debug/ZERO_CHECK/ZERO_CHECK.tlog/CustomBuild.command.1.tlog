@@ -1,0 +1,10 @@
+^C:\USERS\PIOTREK\DESKTOP\STUDIA\SEMESTR_2\TECHNIKI_PROGRAMOWANIA\TECHNIKI-PROGRAMOWANIA\TP_PROJEKT_3\BUILD\CMAKEFILES\A341B4DD9E2B1B9EEBD678C91967733D\GENERATE.STAMP.RULE
+setlocal
+C:\CMake\bin\cmake.exe -SC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3 -BC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/Projekt3.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,48 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\src\algebra.cpp">
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\src\algebra.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\src\fruchterman_reingold.cpp">
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\src\fruchterman_reingold.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\src\kamada_kawai.cpp">
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\src\kamada_kawai.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\src\layout.cpp">
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\src\layout.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\src\nodesoup.cpp">
+    <ClCompile Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\src\nodesoup.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\src\algebra.hpp">
+    <ClInclude Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\src\algebra.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\src\fruchterman_reingold.hpp">
+    <ClInclude Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\src\fruchterman_reingold.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\src\kamada_kawai.hpp">
+    <ClInclude Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\src\kamada_kawai.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\src\layout.hpp">
+    <ClInclude Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\src\layout.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\include\nodesoup.hpp">
+    <ClInclude Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\include\nodesoup.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\new_projekt3\tp_projekt_3\matplotplusplus\source\3rd_party\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\source\3rd_party\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{8A9BEF65-BA0D-3D95-B32E-336ED415D73F}</UniqueIdentifier>
+      <UniqueIdentifier>{965E3F3C-49F0-3472-808E-9DDF4EB7D9C2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{FC3C909E-F758-3183-B0E6-521750793B2B}</UniqueIdentifier>
+      <UniqueIdentifier>{CF08297F-FD83-3BC6-B3E3-23EA7EBE540A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

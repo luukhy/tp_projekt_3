@@ -1,0 +1,1320 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						5,
+						6
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						9,
+						12,
+						13,
+						15
+					]
+				},
+				{
+					"build" : "matplotplusplus",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-matplotplusplus-Debug-68e6936f8b008de647a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "matplotplusplus",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "matplotplusplus/source",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-matplotplusplus.source-Debug-48226e0e0d2900eb7955.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "matplotplusplus/source"
+				},
+				{
+					"build" : "matplotplusplus/source/3rd_party",
+					"jsonFile" : "directory-matplotplusplus.source.3rd_party-Debug-73dbb782b10e51849238.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "matplotplusplus/source/3rd_party",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "matplotplusplus/source/matplot",
+					"jsonFile" : "directory-matplotplusplus.source.matplot-Debug-a39a9b179027f3ba92f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "matplotplusplus/source/matplot",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "SDL",
+					"jsonFile" : "directory-SDL-Debug-ddcb27271f2396b9eeda.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "SDL",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						7,
+						8,
+						14,
+						16
+					]
+				},
+				{
+					"build" : "SDL2_gfx",
+					"jsonFile" : "directory-SDL2_gfx-Debug-60cc11fa58e3b148913c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "SDL2_gfx",
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Projekt3",
+					"targetIndexes" : 
+					[
+						0,
+						9,
+						12,
+						13,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Matplot++",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "SDL2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						7,
+						8,
+						14,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "SDL2_gfx",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-3f08496b7904bfa3f105.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@da9a3d50974743c8a62b",
+					"jsonFile" : "target-ALL_BUILD-Debug-6f91b19e54e67a5d2dc1.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@e7c329919722962a2ad4",
+					"jsonFile" : "target-ALL_BUILD-Debug-36ed596458e477fcc286.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@2c7becf580f3cc8d05f2",
+					"jsonFile" : "target-ALL_BUILD-Debug-28d8de4ed3944471f892.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SDL2::@e7c329919722962a2ad4",
+					"jsonFile" : "target-SDL2-Debug-e8012a3dc7278446cc79.json",
+					"name" : "SDL2",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SDL2-static::@e7c329919722962a2ad4",
+					"jsonFile" : "target-SDL2-static-Debug-7255b70828b544874e28.json",
+					"name" : "SDL2-static",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SDL2_gfx::@2c7becf580f3cc8d05f2",
+					"jsonFile" : "target-SDL2_gfx-Debug-abbb516e14715e9cac0c.json",
+					"name" : "SDL2_gfx",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SDL2_test::@e7c329919722962a2ad4",
+					"jsonFile" : "target-SDL2_test-Debug-29052028b67ae34884c4.json",
+					"name" : "SDL2_test",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SDL2main::@e7c329919722962a2ad4",
+					"jsonFile" : "target-SDL2main-Debug-9e7e6ed49406392fd191.json",
+					"name" : "SDL2main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-ea63ed9c155debc018ab.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "matplot::@900000785becdfd3715c",
+					"jsonFile" : "target-matplot-Debug-2d8930f685035eed16e3.json",
+					"name" : "matplot",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "nodesoup::@c12dc8f6f399c06ad5fb",
+					"jsonFile" : "target-nodesoup-Debug-1f71611c513a3e7287a1.json",
+					"name" : "nodesoup",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "planar_quadrotor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-planar_quadrotor-Debug-749c7325eb38f74a9c53.json",
+					"name" : "planar_quadrotor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plot-Debug-5500ae3114bd7e9449c0.json",
+					"name" : "plot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "sdl_headers_copy::@e7c329919722962a2ad4",
+					"jsonFile" : "target-sdl_headers_copy-Debug-3091a0af88896116e3b4.json",
+					"name" : "sdl_headers_copy",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-72f4ca5f125c97716d85.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "uninstall::@e7c329919722962a2ad4",
+					"jsonFile" : "target-uninstall-Debug-09d77f5901565a289453.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						5,
+						6
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						9,
+						12,
+						13,
+						15
+					]
+				},
+				{
+					"build" : "matplotplusplus",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-matplotplusplus-Release-68e6936f8b008de647a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "matplotplusplus",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "matplotplusplus/source",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-matplotplusplus.source-Release-48226e0e0d2900eb7955.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "matplotplusplus/source"
+				},
+				{
+					"build" : "matplotplusplus/source/3rd_party",
+					"jsonFile" : "directory-matplotplusplus.source.3rd_party-Release-73dbb782b10e51849238.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "matplotplusplus/source/3rd_party",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "matplotplusplus/source/matplot",
+					"jsonFile" : "directory-matplotplusplus.source.matplot-Release-a39a9b179027f3ba92f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "matplotplusplus/source/matplot",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "SDL",
+					"jsonFile" : "directory-SDL-Release-ddcb27271f2396b9eeda.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "SDL",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						7,
+						8,
+						14,
+						16
+					]
+				},
+				{
+					"build" : "SDL2_gfx",
+					"jsonFile" : "directory-SDL2_gfx-Release-60cc11fa58e3b148913c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "SDL2_gfx",
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Projekt3",
+					"targetIndexes" : 
+					[
+						0,
+						9,
+						12,
+						13,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Matplot++",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "SDL2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						7,
+						8,
+						14,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "SDL2_gfx",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-3f08496b7904bfa3f105.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@da9a3d50974743c8a62b",
+					"jsonFile" : "target-ALL_BUILD-Release-6f91b19e54e67a5d2dc1.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@e7c329919722962a2ad4",
+					"jsonFile" : "target-ALL_BUILD-Release-36ed596458e477fcc286.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@2c7becf580f3cc8d05f2",
+					"jsonFile" : "target-ALL_BUILD-Release-28d8de4ed3944471f892.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SDL2::@e7c329919722962a2ad4",
+					"jsonFile" : "target-SDL2-Release-2ae1fe11b21f7cf6d6e6.json",
+					"name" : "SDL2",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SDL2-static::@e7c329919722962a2ad4",
+					"jsonFile" : "target-SDL2-static-Release-9f58582b18ac30418ec2.json",
+					"name" : "SDL2-static",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SDL2_gfx::@2c7becf580f3cc8d05f2",
+					"jsonFile" : "target-SDL2_gfx-Release-f95b34e51f08ace04403.json",
+					"name" : "SDL2_gfx",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SDL2_test::@e7c329919722962a2ad4",
+					"jsonFile" : "target-SDL2_test-Release-f479c9a89d75c1506e79.json",
+					"name" : "SDL2_test",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SDL2main::@e7c329919722962a2ad4",
+					"jsonFile" : "target-SDL2main-Release-3420363602ef7eae4517.json",
+					"name" : "SDL2main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-ea63ed9c155debc018ab.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "matplot::@900000785becdfd3715c",
+					"jsonFile" : "target-matplot-Release-81874493cdf4a0b743a8.json",
+					"name" : "matplot",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "nodesoup::@c12dc8f6f399c06ad5fb",
+					"jsonFile" : "target-nodesoup-Release-6620ba3af9469bfdfcd0.json",
+					"name" : "nodesoup",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "planar_quadrotor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-planar_quadrotor-Release-0d213d4717ee9c720da2.json",
+					"name" : "planar_quadrotor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plot-Release-d2b927b0d40fbca5d719.json",
+					"name" : "plot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "sdl_headers_copy::@e7c329919722962a2ad4",
+					"jsonFile" : "target-sdl_headers_copy-Release-3091a0af88896116e3b4.json",
+					"name" : "sdl_headers_copy",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Release-46d952d1f87fca2df5c0.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "uninstall::@e7c329919722962a2ad4",
+					"jsonFile" : "target-uninstall-Release-09d77f5901565a289453.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						5,
+						6
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						9,
+						12,
+						13,
+						15
+					]
+				},
+				{
+					"build" : "matplotplusplus",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-matplotplusplus-MinSizeRel-68e6936f8b008de647a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "matplotplusplus",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "matplotplusplus/source",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-matplotplusplus.source-MinSizeRel-48226e0e0d2900eb7955.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "matplotplusplus/source"
+				},
+				{
+					"build" : "matplotplusplus/source/3rd_party",
+					"jsonFile" : "directory-matplotplusplus.source.3rd_party-MinSizeRel-73dbb782b10e51849238.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "matplotplusplus/source/3rd_party",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "matplotplusplus/source/matplot",
+					"jsonFile" : "directory-matplotplusplus.source.matplot-MinSizeRel-a39a9b179027f3ba92f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "matplotplusplus/source/matplot",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "SDL",
+					"jsonFile" : "directory-SDL-MinSizeRel-ddcb27271f2396b9eeda.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "SDL",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						7,
+						8,
+						14,
+						16
+					]
+				},
+				{
+					"build" : "SDL2_gfx",
+					"jsonFile" : "directory-SDL2_gfx-MinSizeRel-60cc11fa58e3b148913c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "SDL2_gfx",
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Projekt3",
+					"targetIndexes" : 
+					[
+						0,
+						9,
+						12,
+						13,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Matplot++",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "SDL2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						7,
+						8,
+						14,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "SDL2_gfx",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-3f08496b7904bfa3f105.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@da9a3d50974743c8a62b",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-6f91b19e54e67a5d2dc1.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@e7c329919722962a2ad4",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-36ed596458e477fcc286.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@2c7becf580f3cc8d05f2",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-28d8de4ed3944471f892.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SDL2::@e7c329919722962a2ad4",
+					"jsonFile" : "target-SDL2-MinSizeRel-a11fd4e2a56859d42f14.json",
+					"name" : "SDL2",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SDL2-static::@e7c329919722962a2ad4",
+					"jsonFile" : "target-SDL2-static-MinSizeRel-952648d89a7600a43042.json",
+					"name" : "SDL2-static",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SDL2_gfx::@2c7becf580f3cc8d05f2",
+					"jsonFile" : "target-SDL2_gfx-MinSizeRel-41a6d109dd5aa9d226e9.json",
+					"name" : "SDL2_gfx",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SDL2_test::@e7c329919722962a2ad4",
+					"jsonFile" : "target-SDL2_test-MinSizeRel-4496c0337917fb483219.json",
+					"name" : "SDL2_test",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SDL2main::@e7c329919722962a2ad4",
+					"jsonFile" : "target-SDL2main-MinSizeRel-db6c732c5f6446675711.json",
+					"name" : "SDL2main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-ea63ed9c155debc018ab.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "matplot::@900000785becdfd3715c",
+					"jsonFile" : "target-matplot-MinSizeRel-f0f14ec89267711746ff.json",
+					"name" : "matplot",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "nodesoup::@c12dc8f6f399c06ad5fb",
+					"jsonFile" : "target-nodesoup-MinSizeRel-7dd4671184aab4703c43.json",
+					"name" : "nodesoup",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "planar_quadrotor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-planar_quadrotor-MinSizeRel-ae6d953ee74ef32ec52d.json",
+					"name" : "planar_quadrotor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plot-MinSizeRel-dfc60ca503e4ddf27125.json",
+					"name" : "plot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "sdl_headers_copy::@e7c329919722962a2ad4",
+					"jsonFile" : "target-sdl_headers_copy-MinSizeRel-3091a0af88896116e3b4.json",
+					"name" : "sdl_headers_copy",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-MinSizeRel-a6dbbf257fe376459106.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "uninstall::@e7c329919722962a2ad4",
+					"jsonFile" : "target-uninstall-MinSizeRel-09d77f5901565a289453.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						5,
+						6
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						9,
+						12,
+						13,
+						15
+					]
+				},
+				{
+					"build" : "matplotplusplus",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-matplotplusplus-RelWithDebInfo-68e6936f8b008de647a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "matplotplusplus",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "matplotplusplus/source",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-matplotplusplus.source-RelWithDebInfo-48226e0e0d2900eb7955.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "matplotplusplus/source"
+				},
+				{
+					"build" : "matplotplusplus/source/3rd_party",
+					"jsonFile" : "directory-matplotplusplus.source.3rd_party-RelWithDebInfo-73dbb782b10e51849238.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "matplotplusplus/source/3rd_party",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "matplotplusplus/source/matplot",
+					"jsonFile" : "directory-matplotplusplus.source.matplot-RelWithDebInfo-a39a9b179027f3ba92f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "matplotplusplus/source/matplot",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "SDL",
+					"jsonFile" : "directory-SDL-RelWithDebInfo-ddcb27271f2396b9eeda.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "SDL",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						7,
+						8,
+						14,
+						16
+					]
+				},
+				{
+					"build" : "SDL2_gfx",
+					"jsonFile" : "directory-SDL2_gfx-RelWithDebInfo-60cc11fa58e3b148913c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "SDL2_gfx",
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Projekt3",
+					"targetIndexes" : 
+					[
+						0,
+						9,
+						12,
+						13,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Matplot++",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "SDL2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						7,
+						8,
+						14,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "SDL2_gfx",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-3f08496b7904bfa3f105.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@da9a3d50974743c8a62b",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-6f91b19e54e67a5d2dc1.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@e7c329919722962a2ad4",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-36ed596458e477fcc286.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@2c7becf580f3cc8d05f2",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-28d8de4ed3944471f892.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SDL2::@e7c329919722962a2ad4",
+					"jsonFile" : "target-SDL2-RelWithDebInfo-36980d032a05ab5f6d26.json",
+					"name" : "SDL2",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SDL2-static::@e7c329919722962a2ad4",
+					"jsonFile" : "target-SDL2-static-RelWithDebInfo-36383dd21a587b24c01d.json",
+					"name" : "SDL2-static",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SDL2_gfx::@2c7becf580f3cc8d05f2",
+					"jsonFile" : "target-SDL2_gfx-RelWithDebInfo-c806fede3d9d38be45c6.json",
+					"name" : "SDL2_gfx",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SDL2_test::@e7c329919722962a2ad4",
+					"jsonFile" : "target-SDL2_test-RelWithDebInfo-7662aff387692257e088.json",
+					"name" : "SDL2_test",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SDL2main::@e7c329919722962a2ad4",
+					"jsonFile" : "target-SDL2main-RelWithDebInfo-2d01ac00390b83866f4d.json",
+					"name" : "SDL2main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-ea63ed9c155debc018ab.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "matplot::@900000785becdfd3715c",
+					"jsonFile" : "target-matplot-RelWithDebInfo-36c15916fe90dbfe26d6.json",
+					"name" : "matplot",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "nodesoup::@c12dc8f6f399c06ad5fb",
+					"jsonFile" : "target-nodesoup-RelWithDebInfo-bd869be161fb73112511.json",
+					"name" : "nodesoup",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "planar_quadrotor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-planar_quadrotor-RelWithDebInfo-4718124a7bdb87146cce.json",
+					"name" : "planar_quadrotor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plot-RelWithDebInfo-d0e1ddd4864294fdb677.json",
+					"name" : "plot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "sdl_headers_copy::@e7c329919722962a2ad4",
+					"jsonFile" : "target-sdl_headers_copy-RelWithDebInfo-3091a0af88896116e3b4.json",
+					"name" : "sdl_headers_copy",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-RelWithDebInfo-0d56986d654cc45d6d58.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "uninstall::@e7c329919722962a2ad4",
+					"jsonFile" : "target-uninstall-RelWithDebInfo-09d77f5901565a289453.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build",
+		"source" : "C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

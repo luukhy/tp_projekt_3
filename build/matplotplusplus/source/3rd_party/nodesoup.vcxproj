@@ -1,51 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|x64">
+    <ProjectConfiguration Include="Debug|win32">
       <Configuration>Debug</Configuration>
-      <Platform>x64</Platform>
+      <Platform>win32</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|x64">
+    <ProjectConfiguration Include="Release|win32">
       <Configuration>Release</Configuration>
-      <Platform>x64</Platform>
+      <Platform>win32</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="MinSizeRel|x64">
+    <ProjectConfiguration Include="MinSizeRel|win32">
       <Configuration>MinSizeRel</Configuration>
-      <Platform>x64</Platform>
+      <Platform>win32</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="RelWithDebInfo|x64">
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
       <Configuration>RelWithDebInfo</Configuration>
-      <Platform>x64</Platform>
+      <Platform>win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A4246919-9D03-37AA-AF7E-FCDC2B5893EA}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
-    <Platform>x64</Platform>
+    <Platform>win32</Platform>
     <ProjectName>nodesoup</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
@@ -59,24 +59,24 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\matplotplusplus\source\3rd_party\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nodesoup.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nodesoup</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\matplotplusplus\source\3rd_party\Release\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nodesoup.dir\Release\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nodesoup</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\matplotplusplus\source\3rd_party\MinSizeRel\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">nodesoup.dir\MinSizeRel\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">nodesoup</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\matplotplusplus\source\3rd_party\RelWithDebInfo\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">nodesoup.dir\RelWithDebInfo\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">nodesoup</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\matplotplusplus\source\3rd_party\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">nodesoup.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">nodesoup</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\matplotplusplus\source\3rd_party\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">nodesoup.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">nodesoup</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\matplotplusplus\source\3rd_party\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">nodesoup.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">nodesoup</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\matplotplusplus\source\3rd_party\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">nodesoup.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">nodesoup</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.lib</TargetExt>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
     <ClCompile>
       <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
@@ -106,10 +106,10 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
     <ClCompile>
       <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
@@ -139,10 +139,10 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
     <ClCompile>
       <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
@@ -172,10 +172,10 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
     <ClCompile>
       <AdditionalIncludeDirectories>C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
@@ -204,14 +204,14 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\source\3rd_party\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/matplotplusplus/source/3rd_party/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/matplotplusplus/source/3rd_party/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
 C:\CMake\bin\cmake.exe -SC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3 -BC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build --check-stamp-file C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/matplotplusplus/source/3rd_party/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
@@ -220,11 +220,11 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.26\Modules\FindBLAS.cmake;C:\CMake\share\cmake-3.26\Modules\FindJPEG.cmake;C:\CMake\share\cmake-3.26\Modules\FindLAPACK.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.26\Modules\FindTIFF.cmake;C:\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.26\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\SelectLibraryConfigurations.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\cmake\FindFFTW.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\cmake\FindOpenCV.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\matplotplusplus\source\3rd_party\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/matplotplusplus/source/3rd_party/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.26\Modules\FindBLAS.cmake;C:\CMake\share\cmake-3.26\Modules\FindJPEG.cmake;C:\CMake\share\cmake-3.26\Modules\FindLAPACK.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.26\Modules\FindTIFF.cmake;C:\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.26\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\SelectLibraryConfigurations.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\cmake\FindFFTW.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\cmake\FindOpenCV.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\matplotplusplus\source\3rd_party\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/matplotplusplus/source/3rd_party/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
 C:\CMake\bin\cmake.exe -SC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3 -BC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build --check-stamp-file C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/matplotplusplus/source/3rd_party/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
@@ -233,11 +233,11 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.26\Modules\FindBLAS.cmake;C:\CMake\share\cmake-3.26\Modules\FindJPEG.cmake;C:\CMake\share\cmake-3.26\Modules\FindLAPACK.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.26\Modules\FindTIFF.cmake;C:\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.26\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\SelectLibraryConfigurations.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\cmake\FindFFTW.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\cmake\FindOpenCV.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\matplotplusplus\source\3rd_party\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/matplotplusplus/source/3rd_party/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.26\Modules\FindBLAS.cmake;C:\CMake\share\cmake-3.26\Modules\FindJPEG.cmake;C:\CMake\share\cmake-3.26\Modules\FindLAPACK.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.26\Modules\FindTIFF.cmake;C:\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.26\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\SelectLibraryConfigurations.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\cmake\FindFFTW.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\cmake\FindOpenCV.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\matplotplusplus\source\3rd_party\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/matplotplusplus/source/3rd_party/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
 C:\CMake\bin\cmake.exe -SC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3 -BC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build --check-stamp-file C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/matplotplusplus/source/3rd_party/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
@@ -246,11 +246,11 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.26\Modules\FindBLAS.cmake;C:\CMake\share\cmake-3.26\Modules\FindJPEG.cmake;C:\CMake\share\cmake-3.26\Modules\FindLAPACK.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.26\Modules\FindTIFF.cmake;C:\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.26\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\SelectLibraryConfigurations.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\cmake\FindFFTW.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\cmake\FindOpenCV.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\matplotplusplus\source\3rd_party\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/matplotplusplus/source/3rd_party/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.26\Modules\FindBLAS.cmake;C:\CMake\share\cmake-3.26\Modules\FindJPEG.cmake;C:\CMake\share\cmake-3.26\Modules\FindLAPACK.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.26\Modules\FindTIFF.cmake;C:\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.26\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\SelectLibraryConfigurations.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\cmake\FindFFTW.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\cmake\FindOpenCV.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\matplotplusplus\source\3rd_party\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/matplotplusplus/source/3rd_party/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
 C:\CMake\bin\cmake.exe -SC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3 -BC:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build --check-stamp-file C:/Users/Piotrek/Desktop/STUDIA/semestr_2/Techniki_Programowania/techniki-programowania/tp_projekt_3/build/matplotplusplus/source/3rd_party/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
@@ -259,9 +259,9 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.26\Modules\FindBLAS.cmake;C:\CMake\share\cmake-3.26\Modules\FindJPEG.cmake;C:\CMake\share\cmake-3.26\Modules\FindLAPACK.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.26\Modules\FindTIFF.cmake;C:\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.26\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\SelectLibraryConfigurations.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\cmake\FindFFTW.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\cmake\FindOpenCV.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\matplotplusplus\source\3rd_party\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.26\Modules\FindBLAS.cmake;C:\CMake\share\cmake-3.26\Modules\FindJPEG.cmake;C:\CMake\share\cmake-3.26\Modules\FindLAPACK.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.26\Modules\FindTIFF.cmake;C:\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.26\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\CMake\share\cmake-3.26\Modules\SelectLibraryConfigurations.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\cmake\FindFFTW.cmake;C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\matplotplusplus\cmake\FindOpenCV.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\Piotrek\Desktop\STUDIA\semestr_2\Techniki_Programowania\techniki-programowania\tp_projekt_3\build\matplotplusplus\source\3rd_party\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>

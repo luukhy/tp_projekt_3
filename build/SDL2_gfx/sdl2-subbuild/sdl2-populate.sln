@@ -24,14 +24,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sdl2-populate", "sdl2-popul
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
+		Debug|win32 = Debug|win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CCB9005B-C90D-3EFA-8DEB-ADB7B52DE59B}.Debug|x64.ActiveCfg = Debug|x64
-		{11E64698-004E-3424-8DA1-B339B8B7DD41}.Debug|x64.ActiveCfg = Debug|x64
-		{11E64698-004E-3424-8DA1-B339B8B7DD41}.Debug|x64.Build.0 = Debug|x64
-		{9085EA40-7FDC-32E7-8F79-C887CC06A426}.Debug|x64.ActiveCfg = Debug|x64
-		{9085EA40-7FDC-32E7-8F79-C887CC06A426}.Debug|x64.Build.0 = Debug|x64
+		{CCB9005B-C90D-3EFA-8DEB-ADB7B52DE59B}.Debug|win32.ActiveCfg = Debug|win32
+		{11E64698-004E-3424-8DA1-B339B8B7DD41}.Debug|win32.ActiveCfg = Debug|win32
+		{11E64698-004E-3424-8DA1-B339B8B7DD41}.Debug|win32.Build.0 = Debug|win32
+		{9085EA40-7FDC-32E7-8F79-C887CC06A426}.Debug|win32.ActiveCfg = Debug|win32
+		{9085EA40-7FDC-32E7-8F79-C887CC06A426}.Debug|win32.Build.0 = Debug|win32
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CCB9005B-C90D-3EFA-8DEB-ADB7B52DE59B} = {0E6E3657-6CA8-38AC-B650-B68F4AA328E1}

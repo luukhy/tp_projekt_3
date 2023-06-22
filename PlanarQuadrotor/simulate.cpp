@@ -117,7 +117,7 @@ int main(int argc, char* args[])
             SDL_RenderClear(gRenderer.get());
 
             /* Quadrotor rendering step */
-            quadrotor_visualizer.render(gRenderer, quadrotor);
+            quadrotor_visualizer.render_building(gRenderer, quadrotor);
 
             SDL_RenderPresent(gRenderer.get());
 

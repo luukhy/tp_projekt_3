@@ -9,7 +9,7 @@ PlanarQuadrotorVisualizer::PlanarQuadrotorVisualizer(PlanarQuadrotor *quadrotor_
  * [IN PROGRESS]   2. Use more shapes to represent quadrotor (e.x. try replicate http://underactuated.mit.edu/acrobot.html#section3 or do something prettier)
  * 3. Animate proppelers (extra points)
  */
-void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer, PlanarQuadrotor quadrotor) {
+void PlanarQuadrotorVisualizer::render_building(std::shared_ptr<SDL_Renderer> &gRenderer, PlanarQuadrotor quadrotor) {
     struct Point {
         float x;
         float y;
